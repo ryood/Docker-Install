@@ -26,7 +26,9 @@ docker --version
 
 Docker Composeをインストールする
 ```
-sudo dnf update
-sudo dnf install docker-compose-plugin
+sudo mkdir -p /usr/local/lib/docker/cli-plugins
+curl -SL https://github.com/docker/compose/releases/download/v2.27.1/docker-compose-linux-x86_64 -o docker-compose
+chmod +x docker-compose
+sudo mv docker-compose /usr/local/lib/docker/cli-plugins/docker-compose
 docker compose version
 ```
