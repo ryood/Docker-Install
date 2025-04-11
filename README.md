@@ -1,7 +1,12 @@
 # Dockerをインストールする手順
 
 # Ubuntu
-ubuntu/install-docker.shを実行
+スーパーユーザーに移行  
+```
+sudo su -
+```
+ubuntu/install-docker.shを実行  
+再ログイン  
 
 # Amazon linax 2023
 gitをインストールする
