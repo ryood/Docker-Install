@@ -5,7 +5,10 @@
 ```
 sudo su
 ```
-ubuntu/install-docker.shを実行  
+Dockerをインストール  
+```
+./ubuntu/install-docker.sh
+```
 再ログイン  
 
 # Amazon linax 2023
