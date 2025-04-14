@@ -3,7 +3,7 @@
 # Ubuntu
 スーパーユーザーに移行  
 ```
-sudo su -
+sudo su
 ```
 ubuntu/install-docker.shを実行  
 再ログイン  
